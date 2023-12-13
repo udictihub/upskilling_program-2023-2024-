@@ -11,12 +11,21 @@ Welcome to the UDICTI Upskilling Program! We're thrilled to have you on board in
 
 ## How to Submit Your Assignments:
 
+### Before
+Make sure you have forked [this repo](https://github.com/udictihub/upskilling_program-2023-2024-.git)
+
+then,
+
+Go to your **own github account**, Find the forked repo and clone it on your computer. ie
+
+Then,
+
 ### Step 1: Cloning the Repository
 
 Clone this repository to your local machine to get started:
 
 ```bash
-git clone [repository_url]
+git clone https://github.com/<your username>/upskilling_program-2023-2024-.git
 ```
 ### Step 2: Accessing Weekly Branches
 
@@ -24,11 +33,14 @@ To access assignments for a specific week, switch to the corresponding branch:
 
 ```bash
 git checkout week_1 # Replace 'week_1' with the desired week number
+
+cd week_1 # Enter to the 'week_1' folder
 ```
+
 
 ### Step 3: Submitting Assignments
 
-Inside the week's branch, create a folder using your name or unique identifier:
+Inside the week's folder, create a folder using your name:
 
 ```bash
 mkdir Your_Name
@@ -51,11 +63,22 @@ git push origin week_1 # Replace 'week_1' with the current week's branch
 ```
 ### Step 6: Creating a Pull Request
 
-Navigate to the repository on GitHub and click on "Pull Requests." Create a new pull request from your branch to merge your changes.
+Navigate to the repository on GitHub and click on "Pull Requests." 
 
-### Step 7: Merging Pull Request
+Create a new pull request from your branch to merge your changes.
 
-After completing all assignments for the week and getting them reviewed, merge your pull request into the main repository.
+Add the Pull Request Title as
+```bash
+Submission by <your name>
+```
+
+### Step 7: Instructor's Review
+
+After completing all assignments for the week then you will get reviewed by instructors.
+
+You will be getting emails to view. Review Responses from instructor
+
+
 
 # Additional Notes:
 

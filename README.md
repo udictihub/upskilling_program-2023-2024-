@@ -1,76 +1,41 @@
-# Welcome to the UDICTI Upskilling Program [2023/2024] Repository! 🚀
+# Week 1: Introduction to Git/GitHub, HTML, and CSS
 
-Dear Students,
+Welcome to Week 1 of the UDICTI Upskilling Program! This week's focus is on learning Git/GitHub, HTML, and CSS. Below are the guidelines and instructors for each topic:
 
-Welcome to the UDICTI Upskilling Program! We're thrilled to have you on board in this journey. Below are the guidelines to help you navigate this repository and submit your weekly assignments.
+## Instructors:
 
-## Repository Structure:
+- **Git/GitHub:** Daniel Mawalla
+- **HTML:** Hassan Sammah
+- **CSS:** Ronald Chaula
 
-- This repository contains 8 branches, each corresponding to a week of the program.
-- Assignments for each week are stored in their respective branches (e.g., `week_1`, `week_2`, etc.).
+## Instructions:
 
-## How to Submit Your Assignments:
+### 1. Git/GitHub (Taught by Daniel Mawalla):
 
-### Step 1: Cloning the Repository
+- Learn the basics of version control with Git.
+- Understand GitHub's role in collaborative coding.
+- Refer to resources provided by Daniel for further study.
 
-Clone this repository to your local machine to get started:
+### 2. HTML (Taught by Hassan Sammah):
 
-```bash
-git clone [repository_url]
-```
-### Step 2: Accessing Weekly Branches
+- Dive into HTML fundamentals.
+- Practice creating structured web pages.
+- Explore tags, elements, and document structure.
 
-To access assignments for a specific week, switch to the corresponding branch:
+### 3. CSS (Taught by Ronald Chaula):
 
-```bash
-git checkout week_1 # Replace 'week_1' with the desired week number
-```
+- Explore the basics of CSS for styling web pages.
+- Learn about selectors, properties, and styling techniques.
+- Practice applying styles to HTML elements.
 
-### Step 3: Submitting Assignments
+### All Resources are found on the resources folder
 
-Inside the week's branch, create a folder using your name or unique identifier:
+## Assignment Submission:
 
-```bash
-mkdir Your_Name
-```
+- Create a folder with your name inside the submissions folder.
+- Organize your Git/GitHub notes, HTML and CSS exercises in separate files.
+- Commit and push your changes following the general submission guidelines.
 
-### Step 4: Committing Changes
+Remember, instructors are here to help. Reach out if you need clarification or guidance on the topics covered this week.
 
-Add your files and commit changes:
-
-```bash
-git add .
-git commit -m "Your commit message here"
-```
-### Step 5: Pushing Changes
-
-Push your committed changes to the repository:
-
-```bash
-git push origin week_1 # Replace 'week_1' with the current week's branch
-```
-### Step 6: Creating a Pull Request
-
-Navigate to the repository on GitHub and click on "Pull Requests." Create a new pull request from your branch to merge your changes.
-
-### Step 7: Merging Pull Request
-
-After completing all assignments for the week and getting them reviewed, merge your pull request into the main repository.
-
-# Additional Notes:
-
-- Always ensure you're working in the correct week's branch while submitting assignments.
-- Use meaningful commit messages to describe your changes.
-- Don't hesitate to seek help from instructors or mentors if needed.
-
-We're excited to see your progress! Happy coding and best of luck on this learning journey! 🌟✨
-
-
-Feel free to personalize the message or add any specific details pertinent to your program before sharing it with the students on the GitHub repository.
-
-
-
-
-
-
-
+Happy learning! 🌟✨

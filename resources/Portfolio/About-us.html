@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Portfolio</title>
+    <link rel="icon" href="/assets/my-favicon.png" type="image/x-icon" > 
+    <style>
+        /* #nav-list{
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            
+        } */
+        header{
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid black;
+            padding-bottom: 1.25%;
+            border-top: 1px solid black;
+            padding-top: 1.25%;
+        }
+        nav{
+       
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #nav-list{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        width: 60%;
+        height: 5vh;
+        }
+        .list-item{
+
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list-item-link{
+            text-decoration: none;
+            color: #000;
+            text-align: center;
+            font-size: 1.7vw;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        h1 {
+            text-align: center;
+            color: chocolate;
+        }
+        table{
+            border: 1px solid black;
+            margin: auto;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            align-content: center;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid black;
+            padding-top: 1.25%;
+            margin-top: 20px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/my-favicon.png" alt="My Portfolio Logo" width="70px" height="70px">
+        <nav>
+            <ul id="nav-list">
+                <li class="list-item"><a href="/Home.html"  class="list-item-link">Home</a></li>
+                <li  class="list-item"><a href="/About-us.html"  class="list-item-link">About Me</a></li>
+                <li  class="list-item"><a href="/Contact-us.html" class="list-item-link" >Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Know more about me</h1>
+    <table>
+        <th>Career and Skills</th>
+        <tr><td>2000 - 2010</td><td>Cambridge</td></tr>
+        <tr><td>2010 - 2023</td><td>Programmer and DJ at UDSM</td></tr>
+    </table>
+    <footer>
+        <p>Created by Miso Misondo, &copy; 2023</p>
+    </footer>
+</body>
+</html>

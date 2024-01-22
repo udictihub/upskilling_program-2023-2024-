@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr-primary: rgb(34, 34, 255);
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-primary-2: #a216ff;
+    --clr-red-dark: #ff0000;
+    --clr-red-light: #ff4d4d;
+    --transition: all 0.3s linear;
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+    --radius: 0.5rem;
+}
+
+header{
+    min-height: 100vh;
+    background-image: url("./hero.jpeg");
+    display: grid;
+    place-items: center;
+}
+.banner h1{
+    font-size: 3rem;
+    color: var(--clr-primary);
+    font-family: var(--ff-primary);
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.banner .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: var(--radius);
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    font-family: var(--ff-secondary);
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.banner{
+    width: 40vw;
+    padding:10px 0;
+    text-align: center;
+    background-color: var(--clr-white);
+    border-radius: var(--radius);
+
+}
+
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 166, 233, 0.5);
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+
+    /* hide the modal */
+    visibility: hidden;
+    z-index: -10;
+  }
+
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+}
+.modal-container{
+    position: relative;
+    background: var(--clr-white);
+    border-radius: var(--radius);
+}
+  .modal-container div{
+    width: 40vw;
+   
+    padding: 1rem 2rem;
+  }
+
+  .close-btn {
+    font-size: 1.75rem;
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-primary);
+    transition: var(--transition);
+    cursor: pointer;
+    color: var(--clr-red-dark);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .close-btn:hover {
+    color: var(--clr-red-light);
+    transform: rotate(360deg);
+  }
